@@ -1,0 +1,25 @@
+This is the OS/2 port for GCC3.3.5 of libsigsegv v.2.6, made using
+the OS/2 Build Environment from Paul Smedley.
+
+This library contains interfaces for handling page faults in user
+mode, and should be useful for developers.
+
+I simply compiled it, so I don't know if it will work and to what
+extent it will be useful. I know it's used into several programs
+from the GNU world.
+
+Please note that the library is ready to be installed with "make install" into
+the GCC 3.3.5 tree. If you want to install into another tree, you will need
+to rebuild it entirely by issuing
+
+make distclean
+sh ./configure
+make
+make install
+
+Hope it will be useful.
+
+Mentore Siesto
+Pisa, Italy
+mentore.siesto@alice.it
+26 jan 2011
